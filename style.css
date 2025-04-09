@@ -4201,7 +4201,7 @@ li.breadcrumb-item {
 .banner-area-v3__img2 {
   position: absolute;
   right: -100px;
-  top: -210px;
+  top: -250px;
   max-width: 100%;
 }
 .banner-area-v3__buttons {
@@ -4254,7 +4254,7 @@ li.breadcrumb-item {
   top: -45px !important;
 }
 .banner-area-v3__buttons .saastain-btn:hover {
-  background: var(--heading_color);
+  background: var(--heading_color-2);
   color: #fff;
 }
 .banner-area-v3__img3 {
@@ -4288,7 +4288,7 @@ li.breadcrumb-item {
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
-  transform: rotate(-40deg);
+  /* transform: rotate(-40deg); */
   margin-top: 60px;
   padding: 0 25px;
   justify-content: center;
