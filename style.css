@@ -4879,7 +4879,7 @@ li.breadcrumb-item {
   border: 1px solid var(--border_color);
 }
 .software-card__button svg {
-  stroke: var(--heading_color);
+  stroke: #d4d4d4;
 }
 .software-card__button:hover svg {
   stroke: var(--primary_color);
@@ -4902,10 +4902,12 @@ li.breadcrumb-item {
   font-size: 22px;
   margin: 0 0 15px;
   cursor: pointer;
+  color: white;
 }
 .software-card__text p {
   margin: 0;
   font-size: 16px;
+  color: white;
 }
 .software-card__button svg {
   height: 55px;
@@ -8100,4 +8102,28 @@ h7-tabs-ul > li > div {
   .h7-h-arrow {
     display: block !important;
   }
+}
+
+
+.whatsapp-float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 70px;
+  right: 20px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.whatsapp-float:hover {
+    color: #FFF;
+    background-color: #128C7E;
 }
