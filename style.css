@@ -4201,7 +4201,7 @@ li.breadcrumb-item {
 .banner-area-v3__img2 {
   position: absolute;
   right: -100px;
-  top: -250px;
+  top: -300px;
   max-width: 100%;
 }
 .banner-area-v3__buttons {
@@ -5159,23 +5159,24 @@ li.breadcrumb-item {
   right: 10%;
   top: -10%;
 }
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1600px) {
   .fluid-space {
     padding: 0 30px;
   }
   .banner-area-v3__inside {
     padding: 0 50px;
     gap: 50px;
+    min-height: 620px;
   }
   .banner-area-v3__images {
     min-width: 560px;
   }
-  .banner-area-v3__img2 {
+  /* .banner-area-v3__img2 {
     top: initial;
     right: -62px;
     bottom: -15px;
     max-width: 80%;
-  }
+  } */
   .banner-area-v3__img1 img {
     max-width: 70%;
   }
@@ -5249,18 +5250,18 @@ li.breadcrumb-item {
   .hero-area-v4__img-single img {
     max-width: 80% !important;
   }
-  .hero-area-v4__img-single.hero-area-v4__img-single2 img {
+  /* .hero-area-v4__img-single.hero-area-v4__img-single2 img {
     max-width: 44% !important;
-  }
+  } */
   .features-img-card__img.features-img-card__img-3 {
     right: -13%;
   }
   .features-img-card__img-1 {
     left: -7%;
   }
-  .features-img-card__img.features-img-card__img-2 {
+  /* .features-img-card__img.features-img-card__img-2 {
     bottom: -31%;
-  }
+  } */
   .login-signup__content {
     min-width: 50%;
     max-width: 50%;
